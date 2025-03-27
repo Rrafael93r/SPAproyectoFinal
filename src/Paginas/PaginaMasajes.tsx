@@ -1,14 +1,15 @@
 import Footer from "../Componentes/Footer";
 import Header from "../Componentes/Header";
-import Inicio from "../Componentes/Inicio";
+import Masajes from "../Componentes/Masajes";
 
-const PaginaInicio = () => {
+
+const PaginaMasajes = () => {
     return (
         <>
             <Header />
-            <Inicio />
+            <Masajes />
             <Footer />
         </>
-    );
-};
-export default PaginaInicio;
+    )
+}
+export default PaginaMasajes;

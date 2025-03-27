@@ -1,14 +1,15 @@
+import Contacto from "../Componentes/Contacto";
 import Footer from "../Componentes/Footer";
 import Header from "../Componentes/Header";
-import Inicio from "../Componentes/Inicio";
 
-const PaginaInicio = () => {
+
+const PaginaContacto = () => {
     return (
         <>
             <Header />
-            <Inicio />
+            <Contacto />
             <Footer />
         </>
     );
-};
-export default PaginaInicio;
+}
+export default PaginaContacto;
